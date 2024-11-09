@@ -1,7 +1,5 @@
 " Sequoia Retro Theme for Neovim
-"
 " Based on VSCode Sequoia Retro Theme
-"
 set background=dark
 highlight clear
 
@@ -13,7 +11,7 @@ let g:colors_name = "sequoia-retro"
 
 " General UI Colors
 hi Cursor ctermfg=235 ctermbg=246 guifg=#0F1014 guibg=#868690
-hi Visual ctermbg=235 guibg=#131317
+hi Visual ctermbg=235 guibg=#1f2124 " Updated for better visibility
 hi CursorLine ctermbg=236 guibg=#111216
 hi CursorColumn ctermbg=236 guibg=#111216
 hi ColorColumn ctermbg=236 guibg=#131317
@@ -76,3 +74,4 @@ hi DiagnosticError guifg=#829fa7
 hi DiagnosticWarn guifg=#e8b246
 hi DiagnosticInfo guifg=#5c87a4
 hi DiagnosticHint guifg=#5c87a4
+
